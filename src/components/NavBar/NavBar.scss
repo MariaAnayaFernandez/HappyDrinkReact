@@ -1,0 +1,35 @@
+.header{
+    position:fixed;
+    background-color: rgb(11, 43, 51);
+    width: 100%;
+    height: auto;
+    top: 0px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 2;
+    
+    .nav_bar{
+        justify-content: space-around;
+        display: flex;
+
+        .div_nav{
+            justify-content: end;
+            padding: 5px;
+
+            .text_nav_bar{
+                color:white;
+                text-decoration:none;
+                list-style: none;
+                padding: 5px;
+                font-family: 'Abril Fatface';
+                font-size: 30px;
+
+                &:hover{
+                    color: rgb(210, 187, 178);
+                }
+            }
+        }
+
+    }
+}
