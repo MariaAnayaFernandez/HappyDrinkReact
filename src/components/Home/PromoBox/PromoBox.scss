@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+.seccion1{
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center ;
+    background-color: rgb(11, 43, 51);
+    
+    .imagen-secc-1{
+        padding: 50px;
+
+    }
+
+    .promocion{
+        flex-wrap: wrap;
+
+        .texto-secc-1 {
+            h5{
+                font-family: 'Bitter', serif;
+                font-size: 90px;
+                padding-top: 75px;
+                padding-bottom: 75px;
+                color: rgb(210, 187, 178);
+
+            }
+
+            h2{
+                font-family: 'Abril Fatface';
+                padding-top: 50px;
+                font-size: 30px;
+                color: white;
+            }
+        }
+
+        .grupo-tarjeta{
+            padding-bottom: 50px;
+        
+
+            .border-non{
+                border: none;
+
+            }
+
+            .card-body{
+                background-color: rgb(11, 43, 51);
+            }
+            .card-title{
+                
+                font-family: 'Bitter', serif;
+                    font-size: 40px;
+                    padding-bottom: 15px;
+                    color: white;
+
+            }
+    
+            .card-text{
+                font-family: 'Bitter', serif;
+                font-size: 18px;
+                color: white;
+            }
+
+        }
+
+
+    }
+
+
+}

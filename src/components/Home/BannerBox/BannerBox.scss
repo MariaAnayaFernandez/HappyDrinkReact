@@ -1,0 +1,25 @@
+.parallax-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../imagenes/licorespremium.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        background-color: transparent;
+        text-align: center;
+        padding-top: 200px;
+        font-family: 'Abril Fatface';
+        font-size: 80px;
+        margin: 0;
+        color:white;
+    }
+    p{
+        background-color: transparent;
+        text-align: center;
+        padding: 10px;
+        font-family: 'Bitter', serif;
+        font-size: 20px;
+        color: white;
+    }
+}
